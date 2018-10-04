@@ -4,6 +4,8 @@ package com.test;
 
 import org.junit.Test;
 
+import junit.framework.Assert;
+
 public class ExampleTest {
 
 	@Test
@@ -15,6 +17,9 @@ public class ExampleTest {
 		String expected = "A";
 		
 		//actual
+		String actual = "A";
+		
+		Assert.assertEquals(expected, actual);
 	}
 
 }
